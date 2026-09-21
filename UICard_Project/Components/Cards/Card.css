@@ -1,1 +1,44 @@
+.product-list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card h3{
+  color: #1e293b;
+  margin: 0 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.card p{
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 20px;
+}
+.card button{
+ padding: 12px 16px;
+ background-color: #2563eb;
+ border: none;
+ font-size: 14px;
+ font-weight: 600;
+ color: #ffffff;
+ transition: background-color 0.2s ease, transform 0.1s ease; 
+  
 
+}
+.card button:hover {
+  background-color: #1d4ed8; /* Slightly darker shade on hover */
+}
+
+.card button:active {
+  transform: scale(0.98); /* Tap karne par subtle click effect */
+}
