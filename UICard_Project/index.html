@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website</title>
+  
+  <!-- Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- 1. React Core Library -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  
+  <!-- 2. React DOM Library -->
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- 3. Babel Transpiler -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./Components/Header/Navbar.css">
+  <link rel="stylesheet" href="./Components/Cards/Card.css">
+</head>
+<body>
+
+  <div id="root"></div>
+
+  <!-- Components script tags pehle aur preset="react" ensure karta hai Babel transpilation -->
+  <script type="text/babel" data-presets="react" src="./Components/Header/Navbar.jsx"></script>
+  <script type="text/babel" data-presets="react" src="./Components/Cards/Card.jsx"></script> 
+  <script type="text/babel" data-presets="react" src="App.jsx"></script> 
+
+</body>
+</html>

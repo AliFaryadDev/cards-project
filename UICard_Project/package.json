@@ -1,0 +1,8 @@
+{
+  "name": "react-cart-app",
+  "version": "1.0.0",
+  "description": "CDN Based React Shopping Cart",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r * dist/ 2>/dev/null || true"
+  }
+}
